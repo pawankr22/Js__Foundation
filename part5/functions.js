@@ -84,6 +84,7 @@ const hummus = function(factor) {
     console.log(`${ingredientAmount} ${unit} ${name}`);
   };
   // Calls the ingredients function with the following arguments.
+  
   ingredients(1, "can", "chickpeas");
   ingredients(0.25, "cup", "tahini");
   ingredients(0.25, "cup", "lemon juice");
