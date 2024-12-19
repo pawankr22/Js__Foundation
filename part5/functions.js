@@ -66,3 +66,31 @@ function createTeaMaker(name) {
 let teaMaker = createTeaMaker("hitesh");
 let result = teaMaker("green tea");
 console.log(result);
+
+
+// Nested scope
+
+// Defines the hummus function that takes a factor as an argument.
+const hummus = function(factor) {
+  // Defines the ingredients function that takes amount, unit, and name as arguments.
+  const ingredients = function(amount, unit, name) {
+    // Calculates the ingredient amount by multiplying the amount by the factor.
+    let ingredientAmount = amount * factor;
+    // If the ingredient amount is greater than 1, add an "s" to
+    if (ingredientAmount > 1) {
+      unit += "s";
+    }
+    // Logs the ingredient amount, unit, and name.
+    console.log(`${ingredientAmount} ${unit} ${name}`);
+  };
+  // Calls the ingredients function with the following arguments.
+  ingredients(1, "can", "chickpeas");
+  ingredients(0.25, "cup", "tahini");
+  ingredients(0.25, "cup", "lemon juice");
+  ingredients(1, "clove", "garlic");
+  ingredients(2, "tablespoon", "olive oil");
+  ingredients(0.5, "teaspoon", "cumin");
+};
+
+// call the hummus function with the argument 11.
+console.log(hummus(11));
