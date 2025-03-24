@@ -1,7 +1,7 @@
 console.log("Hello");
-console.log("chai");
-process.stdout.write("chai");
-process.stdout.write("chai");
+console.log("Pawan");
+process.stdout.write("Pawan");
+process.stdout.write("Pawan");
 
-console.table({ city: "Jaipur" });
-console.warn({ city: "Jaipur" });
+console.table({ city: "Faridabad" });
+console.warn({ city: "Faridabad" });

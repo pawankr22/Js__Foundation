@@ -1,4 +1,4 @@
-console.log("Hello Chai!");
+console.log("Hello World!");
 
 const a = {name: "Alice"};
 const b = a;

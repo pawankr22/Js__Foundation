@@ -18,14 +18,16 @@ Symbol
 
 // var score = 102
 
-let score = 102;
-let name = "chaicode.com";
+let score = 224;
+let name = "Pawan Kumar";
 let isLoggedin = false;
 
 //object
 let teaTypes = ["lemon tea", "orange tea", "oolong tea"];
-let user = { firstname: "hitesh", lastname: "choudhary" };
+let user = { firstname: "Pawan", lastname: "kumar" };
 
 let getScore = score;
+let getName = name;
 
 console.log(getScore);
+console.log(getName);

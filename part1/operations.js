@@ -16,7 +16,7 @@ myscore++;
 let credits = 56;
 credits--;
 
-// Comparion operation
+// Comparison operation
 
 let num1 = 3;
 let num2 = 3;
@@ -24,5 +24,5 @@ let num3 = 6;
 
 console.log(num1 == num2); //true
 console.log(num1 != num3); // true
-console.log(num1 > num3); // true
+console.log(num1 > num3); // false
 console.log(num1 < num3); // true
